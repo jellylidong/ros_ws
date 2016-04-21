@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "camera_sub")
+set(camera_sub_MAINTAINER "vcoder <vcoder@todo.todo>")
+set(camera_sub_DEPRECATED "")
+set(camera_sub_VERSION "0.0.0")
+set(camera_sub_BUILD_DEPENDS "cv_bridge" "opencv2" "roscpp" "rospy" "sensor_msgs" "std_msg")
+set(camera_sub_RUN_DEPENDS "message_runtime" "cv_bridge" "opencv2" "roscpp" "rospy" "sensor_msgs" "std_msg")
+set(camera_sub_BUILDTOOL_DEPENDS "catkin")

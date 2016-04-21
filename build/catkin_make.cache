@@ -1,0 +1,2 @@
+camera_sub
+-DCATKIN_DEVEL_PREFIX=/home/vcoder/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vcoder/ros_ws/install -G Unix Makefiles
