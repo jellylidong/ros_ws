@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "demo")
+set(demo_MAINTAINER "vcoder <vcoder@todo.todo>")
+set(demo_DEPRECATED "")
+set(demo_VERSION "0.0.0")
+set(demo_BUILD_DEPENDS "message_generation" "cv_bridge" "roscpp" "rospy" "sensor_msgs" "std_msgs")
+set(demo_RUN_DEPENDS "message_runtime" "cv_bridge" "roscpp" "rospy" "sensor_msgs" "std_msgs")
+set(demo_BUILDTOOL_DEPENDS "catkin")

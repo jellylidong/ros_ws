@@ -1,0 +1,18 @@
+roscore:
+roscore
+
+open ni camera:
+roslaunch openni2_launch openni2.launch
+
+kobuki node:
+roslaunch kobuki_softnode full.launch
+
+kobuki simulator:
+rosrun rviz rviz
+
+key operation subscriber:
+#roslaunch kobuki_keyop keyop.launch
+
+roslaunch kobuki_node minimal.launch --screen
+
+roslaunch kobuki_keyop safe_keyop.launch

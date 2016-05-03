@@ -1,0 +1,15 @@
+(cl:defpackage demo-srv
+  (:use )
+  (:export
+   "FIND_ME"
+   "<FIND_ME-REQUEST>"
+   "FIND_ME-REQUEST"
+   "<FIND_ME-RESPONSE>"
+   "FIND_ME-RESPONSE"
+   "ADDTWOINTS"
+   "<ADDTWOINTS-REQUEST>"
+   "ADDTWOINTS-REQUEST"
+   "<ADDTWOINTS-RESPONSE>"
+   "ADDTWOINTS-RESPONSE"
+  ))
+

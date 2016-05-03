@@ -1,0 +1,8 @@
+prefix=/home/vcoder/ros_ws/devel
+
+Name: DEMO
+Description: Description of DEMO
+Version: 0.0.0
+Cflags: -I/home/vcoder/ros_ws/devel/include
+Libs: -L/home/vcoder/ros_ws/devel/lib 
+Requires: 

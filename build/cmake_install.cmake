@@ -118,6 +118,7 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/vcoder/ros_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/vcoder/ros_ws/build/camera_sub/cmake_install.cmake")
+  INCLUDE("/home/vcoder/ros_ws/build/demo/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

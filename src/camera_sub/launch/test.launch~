@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="camera_sub"
+	      name="test1"
+	      type="publisher.py">
+	</node>
+	<node pkg="camera_sub"
+	      name="test2"
+	      type="talker.py">
+	</node>
+</launch>
